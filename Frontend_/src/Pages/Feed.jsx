@@ -4,8 +4,10 @@ import { MdDelete } from "react-icons/md";
 import axios  from "axios"
 import { useNavigate } from "react-router-dom";
 
+const API = import.meta.env.VITE_API_URL;
 const Feed = () => {
 
+  
     const navigate = useNavigate();
     const galleryId = crypto.randomUUID();
     const handleDelete = async (id) => {
@@ -16,8 +18,7 @@ const Feed = () => {
   if (!confirmDelete) return;
 
   try {
-    await axios.delete(`http://localhost:3000/delete-post/${id}`);
-
+   await axios.delete(`${API}/delete-post/${id}`);
     // Remove deleted post from state
     setPosts((prevPosts) => prevPosts.filter((post) => post._id !== id));
 
@@ -36,7 +37,7 @@ const Feed = () => {
   ])
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/posts")
+    axios.get(`${API}/posts`)
     .then((res) => {
         setPosts(res.data.posts)
     })

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const CreatePost = () => {
+  const API = import.meta.env.VITE_API_URL;
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [image, setImage] = useState(null);
@@ -16,7 +17,7 @@ const CreatePost = () => {
 
     setLoading(true);
     axios
-      .post("http://localhost:3000/create-post", formData)
+      .post(`${API}/create-post`, formData)
       .then((res) => {
         setLoading(false);
         alert("Post Created Successfully..!");
