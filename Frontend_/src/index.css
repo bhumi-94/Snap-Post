@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+body{
+    min-height:100vh;
+
+    background:linear-gradient(
+        to right,
+        #FFF6EC,
+        #F3DFC8,
+        #D2B48C,
+        #8B5E3C
+    );
+}
