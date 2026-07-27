@@ -1,4 +1,11 @@
 {
+  "name": "snap-post-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SnapPost",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "@imagekit/nodejs": "^7.10.0",
     "axios": "^1.18.1",
@@ -6,7 +13,6 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.8.0",
-    "multer": "^2.2.0",
-    "react-icons": "^5.7.0"
+    "multer": "^2.2.0"
   }
 }
