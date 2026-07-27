@@ -15,9 +15,9 @@ app.use(express.json());
 
 const upload = multer({ storage: multer.memoryStorage() }); 
 
-app.get("/", (req, res) => {
-  res.send("🚀 SnapPost Backend is Running Successfully!");
-});
+// app.get("/", (req, res) => {
+//   res.send("🚀 SnapPost Backend is Running Successfully!");
+// });
 
 app.post("/create-post", upload.single("image"), async (req, res) => {
   console.log(req.body);
