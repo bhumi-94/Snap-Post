@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js">
   <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb">
   <img src="https://img.shields.io/badge/TailwindCSS-Styling-38BDF8?logo=tailwindcss">
-  <img src="https://img.shields.io/badge/Cloudinary-Image%20Storage-blue?logo=cloudinary">
   <img src="https://img.shields.io/badge/License-MIT-orange">
 </p>
 
