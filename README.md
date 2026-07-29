@@ -29,20 +29,29 @@ The project demonstrates complete CRUD functionality along with frontend-backend
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Preview
 
 ## 🏠 Home Page
 
-![Home](./Frontend/src/assets/img_1.png)
+![Home](./Frontend_/src/assets/img_1.png)
+
+---
 
 ## 📝 Create Post
 
-![Create Post](./Frontend/src/assets/img2.png)
+![Create Post](./Frontend_/src/assets/img2.png)
 
-## 📖 Explore Feed
-
-![Explore Feed](./Frontend/src/assets/img3.png)
 ---
+
+## 🖼️ Explore Feed
+
+![Explore Feed](./Frontend_/src/assets/img3.png)
+
+---
+
+## 🎥 Project Demo
+
+[▶️ Watch the Project Demo](./Frontend_/src/assets/Project-Preview.mp4)
 
 # ✨ Features
 
