@@ -51,8 +51,7 @@ The project demonstrates complete CRUD functionality along with frontend-backend
 
 ## 🎥 Project Demo
 
-[▶️ Watch the Project Demo](./Frontend_/src/assets/Project-Preview.mp4)
-
+[▶️ Watch Demo](./Frontend_/src/assets/Project-Preview.mp4)
 # ✨ Features
 
 - 🎨 Modern & Minimal UI
